@@ -6,6 +6,8 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 asciidoc:
   ext: asciidoc,adoc,ad
+  attributes:
+    imagesdir: /images
 
 # Personal info
 name: Heiko Does
@@ -92,6 +94,18 @@ content:
         sub_title: Fachinformatiker für Anwendungsentwicklung
         caption: |
           August 2014 –January 2017, Düsseldorf
+  - title: Certifications
+    layout: list
+    content:
+      - layout: right
+        title: Certified Kubernetes Application Developer
+        description: |
+          image:ckad.png[]
+      - layout: right
+        title: Certified Professional for Software Architecture
+        sub_title: Foundation Level
+        description: |
+          image:cpsa-f.png[width=300px]
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
