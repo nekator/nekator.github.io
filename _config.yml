@@ -11,7 +11,7 @@ asciidoc:
 
 # Personal info
 name: Heiko Does
-title: Application Architect
+title: Software Architect
 email: me@nekator.dev
 # email_title: Email (Email title override)
 #phone: Your phone number (optional)
@@ -23,7 +23,7 @@ website: https://nekator.dev
 darkmode: false
 
 # Social links
-twitter_username: N3kator
+#twitter_username: N3kator
 github_username:  nekator
 #stackoverflow_username: "00000001"
 #dribbble_username: jekyll
@@ -56,7 +56,7 @@ mastodon_link: https://social.cologne/@nekator
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/me.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Hello, my name is Heiko Does and I am currently working as an Application Architect at Provinzial Versicherung AG. I have a strong passion for software and am constantly seeking out new technologies and ways to improve my skills.
+  Hello, my name is Heiko Does and I am currently working as an Software Architect at DB Systel GmbH. I have a strong passion for software and am constantly seeking out new technologies and ways to improve my skills.
   
   In my free time, I enjoy contributing to open source projects and staying up-to-date with the latest advancements in the field of IT. I am constantly seeking out new challenges and opportunities to learn and grow as a professional.
 
@@ -66,7 +66,7 @@ content:
     content:
       - layout: left
         title: Provinzial Rheinland Versicherung AG
-        sub_title: Software developer
+        sub_title: Software Developer
         caption: January 2017 – November 2019, Düsseldorf
         description: |  # this will include new lines to allow paragraphs
           * Development and operation of "MeineProvinzial" customer portal.
@@ -77,11 +77,17 @@ content:
       - layout: left
         title: Provinzial Versicherung AG
         sub_title: Application Architect
-        caption: December 2019 – today, Düsseldorf
+        caption: December 2019 – June 2023, Düsseldorf
         description: |
           * Architecture and development of inventory system for warranty and credit products for Protect-Versicherung GmbH
           * Unified software development process for the Provinzial Versicherung AG
           * Migration of internal and field service portal from Websphere (z/OS) to Tomcat 9 (Openshift)
+      - layout: left
+        title: DB Systel GmbH
+        sub_title: Software Architect
+        caption: July 2024 - today
+        description: |
+          * Architecture and development of ZIP, central IT platform in ICE trains include backoffice for DB Fernverkehr AG
   - title: Education
     layout: list
     content:
@@ -99,6 +105,7 @@ content:
     content:
       - layout: right
         title: Certified Kubernetes Application Developer
+        sub_title: expired September 2024
         description: |
           image:ckad.png[]
       - layout: right
@@ -116,7 +123,10 @@ content:
       and am comfortable using any tools necessary to complete a project. 
       I have experience working on projects across the entire spectrum of software development, 
       and enjoy tackling new challenges and learning new technologies.
-      
+
+      At my time working on ZIP I had the chance to write software running on ICE trains and also in the cloud (AWS),
+      using a wide range of technologies and languages.   
+
       In addition, I am a father of two daughters and am married.
 
 # Footer
