@@ -88,6 +88,7 @@ content:
         caption: July 2024 - today
         description: |
           * Architecture and development of ZIP, central IT platform in ICE trains include backoffice for DB Fernverkehr AG
+          * Proof of concept: central train configuration and secret management for DB Regio Service Fassade
   - title: Education
     layout: list
     content:
